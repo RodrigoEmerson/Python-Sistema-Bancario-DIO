@@ -1,8 +1,9 @@
 # Python-Sistema-Bancario-DIO
 
 Linguagem aplicada: PYTHON
+
 Implantação de um Operações:
 
-depósito
+depósito\n
 saque
 extrato

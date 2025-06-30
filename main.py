@@ -68,6 +68,7 @@ def extrato() -> None:
 def main():
     while True:
         print("\nMenu:")
+        print("0. Saldo")
         print("1. Depositar")
         print("2. Sacar")
         print("3. Extrato")
@@ -77,10 +78,16 @@ def main():
         
         if opcao == '1':
             valor = float(input("Digite o valor do depósito: "))
+            if valor <= 0:
+                print("Valor de depósito inválido.")
+                continue    
             descricao = input("Digite a descrição do depósito: ")
             depositar(valor, descricao)
         elif opcao == '2':
             valor = float(input("Digite o valor do saque: "))
+            if valor > saldo:
+                print("Valor de saque inválido.")
+                continue
             descricao = input("Digite a descrição do saque: ")
             sacar(valor, descricao)
         elif opcao == '3':
@@ -88,6 +95,10 @@ def main():
         elif opcao == '4':
             print("Saindo...")
             break
+        elif opcao == '0':
+            data = load_data()
+            saldo = sum(transacao['valor'] for transacao in data)
+            print(f"Saldo atual: R${saldo:.2f}")
         else:
             print("Opção inválida. Tente novamente.")
 

@@ -1,26 +1,56 @@
 [
     {
         "tipo": "dep\u00f3sito",
-        "valor": 352.0,
-        "descricao": "compra",
-        "data": "2025-06-30T14:46:46.146706"
+        "valor": 50.0,
+        "descricao": "poupar",
+        "data": "2025-06-30T16:22:41.934649"
     },
     {
         "tipo": "dep\u00f3sito",
-        "valor": 654.0,
-        "descricao": "tv",
-        "data": "2025-06-30T14:46:54.665719"
-    },
-    {
-        "tipo": "dep\u00f3sito",
-        "valor": 3.6,
-        "descricao": "suco",
-        "data": "2025-06-30T14:47:05.599200"
+        "valor": 365.0,
+        "descricao": "poupar",
+        "data": "2025-06-30T16:23:08.682819"
     },
     {
         "tipo": "saque",
-        "valor": -35.0,
-        "descricao": "venda",
-        "data": "2025-06-30T14:47:32.966454"
+        "valor": -5.0,
+        "descricao": "coxinha",
+        "data": "2025-06-30T16:23:35.531453"
+    },
+    {
+        "tipo": "saque",
+        "valor": -210.0,
+        "descricao": "roupa",
+        "data": "2025-06-30T16:24:04.895634"
+    },
+    {
+        "tipo": "saque",
+        "valor": -500.0,
+        "descricao": "combo",
+        "data": "2025-06-30T16:24:31.200128"
+    },
+    {
+        "tipo": "dep\u00f3sito",
+        "valor": 500.0,
+        "descricao": "s",
+        "data": "2025-06-30T16:25:17.371688"
+    },
+    {
+        "tipo": "saque",
+        "valor": -300.0,
+        "descricao": "compra",
+        "data": "2025-06-30T16:25:32.308114"
+    },
+    {
+        "tipo": "dep\u00f3sito",
+        "valor": 250.0,
+        "descricao": "s",
+        "data": "2025-06-30T16:26:31.767206"
+    },
+    {
+        "tipo": "dep\u00f3sito",
+        "valor": 50.0,
+        "descricao": "sd",
+        "data": "2025-06-30T16:27:46.997673"
     }
 ]

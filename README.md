@@ -2,6 +2,6 @@
 
 Linguagem aplicada: PYTHON
 
-Implantação de um Operações:
+Implantação de Operações:
 
 depósito, saque e extrato

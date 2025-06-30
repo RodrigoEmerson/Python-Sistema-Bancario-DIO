@@ -2,10 +2,11 @@
 
 ## Descrição
 
-Este projeto é um sistema bancário simples desenvolvido em Python, como desafio da Digital Innovation One (DIO). O sistema permite realizar operações básicas como **depósito**, **saque** e **extrato** de uma conta bancária fictícia via terminal.
+Este projeto é um sistema bancário simples desenvolvido em Python, como desafio da Digital Innovation One (DIO). O sistema permite realizar operações básicas como **saldo**, **depósito**, **saque** e **extrato** de uma conta bancária fictícia via terminal.
 
 ## Funcionalidades
 
+- Realizar saldo
 - Realizar depósitos na conta
 - Realizar saques com limite de valor e quantidade diária
 - Visualizar extrato das operações realizadas
@@ -33,6 +34,7 @@ Siga as instruções exibidas no terminal para realizar as operações bancária
 Ao executar o programa, será exibido um menu semelhante a este:
 
 ```
+[0] Saldo
 [1] Depositar
 [2] Sacar
 [3] Extrato
@@ -41,6 +43,7 @@ Ao executar o programa, será exibido um menu semelhante a este:
 => 
 ```
 
+- Para Saldo, digie `0`.
 - Para depositar, digite `1` e informe o valor.
 - Para sacar, digite `2` e informe o valor (respeitando os limites).
 - Para ver o extrato, digite `3`.

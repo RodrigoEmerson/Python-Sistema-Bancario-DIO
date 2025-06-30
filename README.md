@@ -4,6 +4,4 @@ Linguagem aplicada: PYTHON
 
 Implantação de um Operações:
 
-depósito\n
-saque
-extrato
+depósito, saque e extrato

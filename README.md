@@ -4,6 +4,18 @@
 
 Este projeto é um sistema bancário simples desenvolvido em Python, como desafio da Digital Innovation One (DIO). O sistema permite realizar operações básicas como **saldo**, **depósito**, **saque** e **extrato** de uma conta bancária fictícia via terminal.
 
+## 📝 O que você vai aprender desenvolvendo este projeto Sistema bancário em Python
+
+- Como manipular arquivos JSON para persistência de dados (banco_dados.json)
+- Uso de funções para organizar operações bancárias como depósito (depositar), saque (sacar), extrato (extrato) e saldo
+- Leitura e escrita de dados com o módulo json em Python
+- Estruturas de controle de fluxo (if, while, for)
+- Manipulação de datas com datetime
+- Tipagem com List, Dict, Any do módulo typing
+- Interação com o usuário via terminal
+- Boas práticas de organização de código em funções
+- Como criar um menu interativo em Python
+
 ## Funcionalidades
 
 - Realizar saldo
